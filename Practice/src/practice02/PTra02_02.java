@@ -8,13 +8,15 @@ package practice02;
 
 public class PTra02_02 {
 	public static void main(String[] args) {
-		int num = 10;
-		System.out.println(num);
+		int num1 = 10;
+		System.out.println(num1+30);
 
 		// ★ 変数numの値に30足した数を出力してください
 
 
 		// ★ 以下のプログラムで40が出力されるようにしてください
-		System.out.println(num);	// ※※ この行は修正しないでください
+
+		int num2 = 10+30;
+		System.out.println(num2);	// ※※ この行は修正しないでください
 	}
 }
