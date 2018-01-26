@@ -15,6 +15,23 @@ public class PTra03_06 {
 		int random = new java.util.Random().nextInt(limitNumber + 1);
 
 		//---------------------ここから本題-----------------------
+
+		int num = random;
+
+		if(num >=71 && num <=100 ) {
+		System.out.println("☆☆☆☆☆");
+
+		}else if(num >=31 && num<=70) {
+		System.out.print("☆☆☆☆");
+
+		}else {
+		System.out.println("☆☆☆");
+
+		}
+
+
+
+
 		/*
 		 * ★ 以下の仕様に沿ってプログラムを完成させてください
 		 *
